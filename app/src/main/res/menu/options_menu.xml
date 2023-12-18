@@ -3,12 +3,10 @@
 
     <item
         android:id="@+id/recyclerSpritesFragment"
-        android:icon="@android:drawable/btn_default"
-        android:title="@string/app_name" />
+        android:title="@string/pokemonList" />
 
     <item
         android:id="@+id/itemListRecyclerFragment"
-        android:icon="@android:drawable/btn_default"
         android:title="@string/items" />
 
 </menu>

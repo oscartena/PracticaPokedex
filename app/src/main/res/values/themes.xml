@@ -13,5 +13,16 @@
         <!-- Customize your theme here. -->
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <!-- ... otros estilos ... -->
+        <item name="android:itemTextAppearance">@style/MyApp.MenuTextAppearance</item>
+        <item name="android:popupMenuStyle">@style/MyApp.PopupMenu</item>
+    </style>
+
+    <style name="MyApp.MenuTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="MyApp.PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
     </style>
 </resources>
